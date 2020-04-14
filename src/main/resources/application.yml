@@ -1,0 +1,14 @@
+server:
+  port: 8089
+  servlet:
+    context-path: /qrcode
+
+spring:
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+    servlet:
+      content-type: text/html
+    encoding: UTF-8
+    cache: false
+    mode: HTML5
